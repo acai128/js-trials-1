@@ -13,6 +13,7 @@ function outputAllItems(items) {
   }
 }
 
+console.log(outputAllItems([1, 'hello', true]));
 
 // Given an array of numbers, return an array of all even numbers.
 //
@@ -30,6 +31,8 @@ function getAllEvens(nums) {
 
   return evenNums;
 }
+
+// console.log(getAllEvens([7, 8, 10, 1, 2, 2]));
 
 
 // Given an array, return all elements at odd numbered indices.
